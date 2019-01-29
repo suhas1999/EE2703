@@ -1,2 +1,2 @@
 # EE2703
-Applied programming lab
+Applied programming lab IIT Madras
