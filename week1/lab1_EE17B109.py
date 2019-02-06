@@ -18,7 +18,7 @@ for line_no in range(num_lines) : #checking wether right format file give or not
     if lines[line_no] == ".end" or lines[line_no] == ".end\n" :   
         end_line_num = line_no
         test_end = 1
-if test_start * test_end == 0 :
+if test_start * test_end == 0 or start_line_num>end_line_num :
     print("wrong file given as input")
     quit()
 reqd_lines = lines[(start_line_num+1):end_line_num]  #slicing the required ines
